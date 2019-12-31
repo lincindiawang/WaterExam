@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
     private ArrayAdapter<String> adapter;
     String name ;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -164,9 +165,9 @@ public class MainActivity extends AppCompatActivity {
             if (degree >= 1 && degree <=10) {
                 fee = degree*7.35f;
             } else if (degree >= 11 && degree <=30) {
-                fee = degree * 9.45f - 21;
+                fee = degree * 9.45f - 21f;
             } else if (degree >= 31 && degree <=50) {
-                fee = degree * 11.55f - 84;
+                fee = degree * 11.55f - 84f;
             } else {
                 fee = degree * 12.075f - 110.5f;
             }
