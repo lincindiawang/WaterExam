@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
     private Spinner areas;
     private ArrayList<String> data;
     private ArrayAdapter<String> adapter;
+    String name ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
